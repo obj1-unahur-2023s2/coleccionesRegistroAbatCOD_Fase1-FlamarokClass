@@ -15,7 +15,8 @@ object registroAbatidosCOD {
 	
 	method eliminarElRegistroDelDia(dia) {
 		// utiizo el indice, pero remuevo el elemento get(indice)
-		
+		diasDeAbatidos.remove(dia)
+		diasDeAbatidos.get()
 	}
 	
 	
